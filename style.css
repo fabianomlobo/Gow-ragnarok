@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: rgb(18, 62, 184);
+}
+
+header h1{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff5f5;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+header .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .container div{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+header .container li{
+    display: inline;
+}
+
+header .container li a{
+    text-decoration: none;
+    color: #fff5f5;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+header .container li a:hover{
+    text-decoration: underline;
+}
+
+.capa img{
+    width: 100%;
+}
+
+.imagem{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.imagem img{
+    width: 600px;
+}
+#sobre{
+    background-color: rgba(15, 105, 184, 0.171);
+    margin-top: -5px;
+}
+
+#sobre .conteudo{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 25px 0;
+    display: flex;
+}
+
+#sobre .conteudo .descricao{
+    margin-left: 25px;
+}
+
+.descricao h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.descricao p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.descricao a{
+    text-decoration: none;
+    color: #fff5f5;
+    background-color: rgb(15, 105, 184);
+    padding: 5px 8px;
+    display: inline-block;
+    margin-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+#pre-venda{
+    margin: 10px auto;
+    width: 1200px;
+}
+
+#pre-venda h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(8, 42, 134);
+
+}
+
+#pre-venda .container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pre-venda .container p{
+    width: 300px;
+}
+
+#pre-venda form input{
+    display: block;
+    width: 300px;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+#pre-venda form input:focus{
+    outline-color: rgb(7, 28, 85);
+}
+
+#pre-venda a img{
+    height: 25px;
+}
+
+#pre-venda button{
+    width: 70px;
+    background-color: rgb(15, 105, 184);
+    color: #fff5f5;
+    border: none;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#pre-venda button:hover{
+    text-decoration: underline;
+    background-color: rgb(18, 62, 184);
+}
+
+#pre-venda .social a{
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+footer{
+    background-color: rgb(15, 105, 184);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
